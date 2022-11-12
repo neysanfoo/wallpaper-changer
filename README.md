@@ -24,6 +24,10 @@ By deafult, the path is set to ~/Pictures/Wallpapers.
 ```
 export wallpaper_path=$HOME/Pictures/Wallpapers
 ```
-You can change the interval in the wallpaper.sh file. The default is 5 minutes.
+You can change the interval in the wallpaper.sh file. The default is 60 minutes.
 
+Add the following line to your .zshrc file to set the colorscheme on startup.
+```
+cat $HOME/.cache/wal/sequences
+```
 
