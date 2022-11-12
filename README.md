@@ -28,11 +28,11 @@ Install coreutils (for the shuf command)
 
 ## Configuration
 Set the path to the directory containing the images in the wallpaper.sh file.
-By deafult, the path is set to ~/Pictures/Wallpapers.
+By deafult, the path is set to `$HOME/Pictures/Wallpapers`.
 ```
 export wallpaper_path=$HOME/Pictures/Wallpapers
 ```
-You can change the interval in the wallpaper.sh file. The default is 60 minutes.
+You can change the interval in `./wallpaper.sh`. The default is 60 minutes.
 
 Add the following line to your .zshrc file to set the colorscheme on startup.
 ```
