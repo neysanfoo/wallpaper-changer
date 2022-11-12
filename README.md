@@ -1,7 +1,7 @@
 # wallpaper-changer
 
 ## Description
-This program will cycle through a list of images, set them as the desktop wallpaper and set your iterm2 color scheme to match the wallpaper.
+This program will cycle through a list of images, set them as the desktop wallpaper and set your iterm2 color scheme to match the wallpaper. It only works on macOS.
 The flow is as follows:
 1. Select a random image from a specified directory (default: $HOME/Pictures/Wallpapers)
 2. Create a iterm colorscheme from that image (using pywal)
