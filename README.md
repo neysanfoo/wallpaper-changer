@@ -1,6 +1,14 @@
 # wallpaper-changer
 
-A simple script to select a random image from a directory, set it as the desktop wallpaper, and change it in a given interval for Mac OS.
+## Description
+This program will cycle through a list of images, set them as the desktop wallpaper and set your iterm2 color scheme to match the wallpaper.
+The flow is as follows:
+1. Select a random image from that directory
+2. Create a iterm colorscheme from that image (using pywal)
+3. Set the desktop wallpaper to that image
+4. Set the iterm colorscheme to the colorscheme created in step 2
+5. Wait for the given interval
+6. Repeat steps 1-5 until all images in the directory have been used
 
 ## Requirements
 Install pywal (Use this fork: https://github.com/robwaz/pywal, the orignal one might be buggy for Mac OS)
