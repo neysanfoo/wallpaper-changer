@@ -19,7 +19,7 @@ Install pywal (Use this fork: https://github.com/robwaz/pywal, the orignal one m
 Install coreutils (for the shuf command)
 1. `brew install coreutils`
 
-## Usage
+## Installation
 1. `git clone https://github.com/neysanfoo/wallpaper-changer.git`
 2. `cd wallpaper-changer`
 3. `chmod +x run.sh`
