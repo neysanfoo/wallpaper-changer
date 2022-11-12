@@ -22,8 +22,6 @@ do
     # increment the wallpaper index
     wallpaper_index=$((wallpaper_index + 1))
 
-    # if a new 
-
     # sleep for 60 minutes
     sleep 60m
 done
