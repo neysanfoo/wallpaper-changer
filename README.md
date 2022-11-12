@@ -8,11 +8,15 @@ Install pywal (Use this fork: https://github.com/robwaz/pywal, the orignal one m
 2. cd pywal
 3. sudo pip3 install -e ./
 
+Install coreutils (for the shuf command)
+1. brew install coreutils
+
 ## Usage
 1. git clone https://github.com/neysanfoo/wallpaper-changer.git
 2. cd wallpaper-changer
 3. chmod +x run.sh
-4. ./run.sh
+4. chmod +x wallpaper.sh
+5. ./run.sh
 
 ## Configuration
 Set the path to the directory containing the images in the wallpaper.sh file.
