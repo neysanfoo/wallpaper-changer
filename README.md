@@ -3,7 +3,7 @@
 ## Description
 This program will cycle through a list of images, set them as the desktop wallpaper and set your iterm2 color scheme to match the wallpaper.
 The flow is as follows:
-1. Select a random image from that directory
+1. Select a random image from a specified directory (default: $HOME/Pictures/Wallpapers)
 2. Create a iterm colorscheme from that image (using pywal)
 3. Set the desktop wallpaper to that image
 4. Set the iterm colorscheme to the colorscheme created in step 2
