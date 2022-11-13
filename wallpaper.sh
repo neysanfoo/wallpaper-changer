@@ -23,5 +23,5 @@ do
     wallpaper_index=$((wallpaper_index + 1))
 
     # sleep for 60 minutes
-    sleep 60m
+    sleep 3600
 done
